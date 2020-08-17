@@ -1,0 +1,34 @@
+{
+    "name": "Bradons's Tech Learning Diary",
+    "url": "https://techblog.vercel.app",
+    "author": {
+        "name": "Brandon Baek",
+        "email": "baekpro@gmail.com",
+        "handle": "@baekpro",
+        "avatar": "/images/blog/mickey.jpg"
+    },
+    "images": {
+        "logo": "/images/logo/logo.svg",
+        "favicon": "/images/favicon.ico",
+        "twitter": "/images/meta/twitter.jpg",
+        "og": "/images/meta/og.jpg"
+    },
+    "social_links": {
+        "youtube": "https://www.youtube/brndnbaek",
+        "twitter": "https://twitter.com/baekpro",
+        "facebook": "https://www.facebook.com",
+        "github": "https://www.github.com/brndnbaek"
+    },
+    "address": {
+        "street": "",
+        "street_2": "",
+        "city": "Germantown",
+        "state": "Maryland",
+        "country": "USA"
+    },
+    "contact": {
+        "phone": "",
+        "mobile": "",
+        "email": "baekpro@gmail.com"
+    }
+}

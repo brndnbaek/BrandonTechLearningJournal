@@ -1,0 +1,36 @@
+
+//==========  Typography ==========//
+
+// headings
+h1, h2, h3 {
+    @apply font-bold leading-tight mt-0 mb-6 text-gray-300;
+}
+
+
+li {
+	@apply text-gray-400;
+}
+.page-title {
+	@apply text-4xl;
+}
+p {
+	@apply text-gray-400;
+}
+// content
+.content {
+
+	// paragraph
+	p {
+		@apply mb-8;
+
+        // intro paragraph
+		&:first-child {
+			@apply border-b border-black text-2xl pb-10 mb-10 font-light leading-snug text-gray-400;
+
+			@screen md {
+                @apply text-3xl;
+            }
+		}
+    }
+}
+
