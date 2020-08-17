@@ -27,8 +27,8 @@
         "country": "USA"
     },
     "contact": {
-        "phone": "",
-        "mobile": "",
+        "phone": "hidden",
+        "mobile": "hidden",
         "email": "baekpro@gmail.com"
     }
 }
