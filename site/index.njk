@@ -37,7 +37,7 @@ title: Welcome to BRNDN TechBlog!
                 </div>
                 <a class="no-underline" href="{{latest.url}}"><p class="py-4 text-2xl font-bold text-blue-400 md:text-4xl">{{latest.data.title}}</p></a>
             
-                {% if latest.data.series %}
+                {# {% if latest.data.series %}
                 <div class="flex justify-between py-4">
                     <p class="text-gray-600">Series: {{latest.data.series}}</p>
                     {% set seriesCount = 0 %}
@@ -48,7 +48,7 @@ title: Welcome to BRNDN TechBlog!
                     {% endfor %}
                     <p>total artielces in series = {{seriesCount}}</p>
                 </div> 
-                {% endif %}
+                {% endif %} #}
             
                 <div>
                 {% for tag in latest.data.tags %}
@@ -69,7 +69,7 @@ title: Welcome to BRNDN TechBlog!
     </section>
 
     {# right sidebar content box - responsive setup only shown on lg screen #}
-    <div class="flex flex-col items-end hidden rightsidebar md:block">
+    {# <div class="flex flex-col items-end hidden rightsidebar md:block">
         <div class="flex flex-col flex-wrap items-end justify-end w-32 p-4">
             <span><a href="/" class="text-orange-500 no-underline" style="writing-mode: tb-rl;">Javascript</a></span>
             <span><a href="/" class="text-orange-500 no-underline" style="writing-mode: tb-rl;">Static Site</a></span>
@@ -77,7 +77,7 @@ title: Welcome to BRNDN TechBlog!
             <span><a href="/" class="text-orange-500 no-underline" style="writing-mode: tb-rl;">Mac App</a></span>
             <span><a href="/" class="text-orange-500 no-underline" style="writing-mode: tb-rl;">Bookmark</a></span>
         </div>
-    </div>
+    </div> #}
 </div>
 
 <section id="project_blog" class="w-full mt-10 text-gray-400 bg-green-500">
