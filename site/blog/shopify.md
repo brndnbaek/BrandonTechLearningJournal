@@ -4,6 +4,7 @@ excerpt: Shopify 기존에 사용중인 테마에서 원하는 방식으로 고�
 featured_image: ''
 image_caption: ''
 tags:
+- blog
 - shopify
 
 ---
