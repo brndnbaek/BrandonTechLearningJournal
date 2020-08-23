@@ -1,0 +1,21 @@
+---
+label: Quick Note Template
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: excerpt
+  label: excerpt
+- type: file
+  name: featured_image
+  label: featured_image
+- type: text
+  name: image_caption
+  label: image_caption
+- type: list
+  name: tags
+  label: tags
+pages:
+- site/blog/shopify.md
