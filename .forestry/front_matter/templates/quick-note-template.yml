@@ -14,9 +14,6 @@ fields:
 - type: text
   name: image_caption
   label: image_caption
-- type: text
-  name: series
-  label: series
 - type: list
   name: tags
   label: tags
