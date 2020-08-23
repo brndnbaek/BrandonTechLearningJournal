@@ -17,5 +17,14 @@ fields:
 - type: list
   name: tags
   label: tags
+- name: date
+  type: datetime
+  label: date
+  description: article written date
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
 pages:
 - site/blog/shopify.md
