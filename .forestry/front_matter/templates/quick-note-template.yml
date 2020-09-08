@@ -28,3 +28,4 @@ fields:
     display_utc: false
 pages:
 - site/blog/shopify.md
+- site/blog/업데이트된-작업환경.md
