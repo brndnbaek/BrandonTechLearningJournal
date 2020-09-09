@@ -100,3 +100,15 @@ title: Welcome to BRNDN TechBlog!
     </div>
 
 </section>
+
+<section class="w-full p-2 mx-auto mt-10 text-gray-900 ">
+        <h3 class="text-center">최근 작성된 블로그</h3>
+    <div class="grid justify-center grid-cols-2 row-gap-3 p-2" style="justify-content:center;">
+        {% for item in collections.blog%}
+            <div class="w-11/12 p-2 bg-yellow-200 rounded odd:bg-teal-200">
+                <a class="text-base text-gray-900 no-underline" href="{{item.url}}">{{item.data.title}}</a>
+                <span class="block text-sm text-gray-600">{{item.date | dateDisplay}}</span>
+            </div>
+        {%endfor%}
+    </div>
+</section>
